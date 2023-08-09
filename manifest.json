@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Focus",
+  "version": "1.0",
+  "description": "This extension will replace YouTube videos with an image that reminds you to get back to work to help improve productivity.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["jquery.min.js", "./main.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "128": "icon128.png"
+    },
+    "default_title": "Focus!",
+    "default_popup": "popup.html"
+  }
+}
