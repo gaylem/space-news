@@ -17,6 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
       title.innerText = data.title;
       if (data.copyright === undefined) copyright.style.display = 'none';
       else copyright.innerText = data.copyright;
-      date.innerText = data.date;
+      const today = new Date(data.date);
+
+      const options = {
+        weekday: 'long',
+        month: 'long',
+        year: 'numeric',
+        day: 'numeric',
+      };
+      date.innerText = today.toLocaleString('en-US', options);
     });
 });

@@ -23,17 +23,19 @@ body {
 
 #title-block {
   display: flex;
+  align-items: center;
 }
 #title-img {
   display: flex;
   float: left;
   margin-right: 10px;
-  width: 32px;
-  height: 32px;
+  width: 50px;
+  height: auto;
 }
 
 #title {
   text-shadow: 1px 1px 3px lightgray;
+  color: black;
 }
 
 #photo {
