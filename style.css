@@ -32,6 +32,10 @@ body {
   height: 32px;
 }
 
+#title {
+  text-shadow: 1px 1px 3px lightgray;
+}
+
 #photo {
   display: flex;
   max-width: 80%;
