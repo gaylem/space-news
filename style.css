@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #292929;
+  background-color: #313131;
   max-height: 600px;
   max-width: 600px;
   margin: 20px;
@@ -38,7 +38,7 @@ body {
   height: auto;
   margin-left: 20px;
   margin-top: 5px;
-  border: 1px solid white;
+  border: 0.5px solid white;
   box-shadow: 0 0.5px 10px 0 rgb(221, 220, 220);
   border-radius: 5px;
 }
