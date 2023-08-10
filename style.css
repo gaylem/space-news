@@ -6,11 +6,11 @@
 }
 
 body {
-  background-color: #313131;
+  background-color: white;
   max-height: 600px;
   max-width: 600px;
   margin: 20px;
-  color: white;
+  color: #444444;
 }
 .grid-container {
   display: grid;
@@ -39,8 +39,8 @@ body {
   height: auto;
   margin-left: 20px;
   margin-top: 5px;
-  border: 0.5px solid white;
-  box-shadow: 0 0.5px 10px 0 rgb(221, 220, 220);
+  border: 0.5px solid #444444;
+  box-shadow: 0 0.5px 10px 0 rgb(99, 99, 99);
   border-radius: 5px;
 }
 
@@ -73,6 +73,6 @@ body {
 }
 
 a {
-  color: white;
+  color: #444444;
   font-style: bold;
 }
