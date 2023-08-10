@@ -34,19 +34,33 @@ body {
 
 #photo {
   display: flex;
-  max-width: 75%;
+  max-width: 80%;
   height: auto;
   margin-left: 20px;
-  border: 2px solid white;
+  margin-top: 5px;
+  border: 1px solid white;
+  box-shadow: 0 1px 20px 0 white;
+  border-radius: 5px;
 }
 
 #caption,
 #date,
 #copyright,
 #acknowledgments {
-  color: white;
   padding-left: 20px;
-  width: 95%;
+}
+
+#date {
+  font-size: large;
+  padding-top: 10px;
+}
+
+#caption {
+  max-width: 525px;
+  font-size: medium;
+  line-height: 150%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #acknowledgments {
