@@ -12,6 +12,7 @@ body {
   margin: 20px;
   color: #444444;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -25,6 +26,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 #title-img {
   display: flex;
   float: left;
@@ -40,11 +42,10 @@ body {
 
 #photo {
   display: flex;
-  max-width: 80%;
+  max-width: 90%;
   height: auto;
   margin-left: 20px;
   margin-top: 5px;
-  /* border: 0.5px solid #444444; */
   box-shadow: 0 0.5px 10px 0 rgb(99, 99, 99);
   border-radius: 5px;
 }
