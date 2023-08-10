@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+  max-height: 600px;
+  max-width: 600px;
+  margin: 20px;
+  color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  height: 550px;
+  width: 550px;
+  gap: 20px;
+}
+
+#title-block {
+  display: flex;
+}
+#title-img {
+  display: flex;
+  float: left;
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+#photo {
+  display: flex;
+  max-width: 50%;
+  height: auto;
+  margin-left: 20px;
+  border: 2px solid white;
+}
+
+#caption,
+#date,
+#copyright,
+#acknowledgments {
+  color: white;
+  padding-left: 20px;
+  width: 95%;
+}
+
+#acknowledgments {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  font-size: 10px;
+  padding-bottom: 30px;
+}
+
+a {
+  color: white;
+  font-style: bold;
+}

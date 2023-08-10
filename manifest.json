@@ -1,6 +1,6 @@
 {
-  "name": "Love from Mars",
-  "description": "Get a nice message and a photo from Mars.",
+  "name": "Space News",
+  "description": "See NASA's Astronomy Picture of the Day, along with a brief explanation written by a professional astronomer, with a single click!",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
