@@ -38,7 +38,7 @@ body {
   height: auto;
   margin-left: 20px;
   margin-top: 5px;
-  border: 0.5px solid #444444;
+  /* border: 0.5px solid #444444; */
   box-shadow: 0 0.5px 10px 0 rgb(99, 99, 99);
   border-radius: 5px;
 }
