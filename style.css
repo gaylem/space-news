@@ -34,7 +34,7 @@ body {
 
 #photo {
   display: flex;
-  max-width: 50%;
+  max-width: 75%;
   height: auto;
   margin-left: 20px;
   border: 2px solid white;
