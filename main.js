@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title.innerText = data.title;
       if (data.copyright === undefined) copyright.style.display = 'none';
       else copyright.innerText = data.copyright;
-      const today = new Date(data.date);
+      const today = new Date();
 
       const options = {
         weekday: 'long',
