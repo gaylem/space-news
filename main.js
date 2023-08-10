@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
       img.src = data.hdurl;
       caption.innerText = data.explanation;
       title.innerText = data.title;
-      copyright.innerText = data.copyright;
+      if (data.copyright === undefined) copyright.style.display = 'none';
+      else copyright.innerText = data.copyright;
       date.innerText = data.date;
     });
 });
