@@ -1,19 +1,26 @@
 {
-  "manifest_version": 3,
-  "name": "Focus",
+  "name": "Love from Mars",
+  "description": "Get a nice message and a photo from Mars.",
   "version": "1.0",
-  "description": "This extension will replace YouTube videos with an image that reminds you to get back to work to help improve productivity.",
-  "content_scripts": [
-    {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["jquery.min.js", "./main.js"]
-    }
-  ],
-  "browser_action": {
+  "manifest_version": 3,
+  "icons": {
+    "16": "/images/icon-16x16.png",
+    "32": "/images/icon-32x32.png",
+    "48": "/images/icon-48x48.png",
+    "128": "/images/icon-128x128.png"
+  },
+  "background": {
+    "service_worker": "main.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
     "default_icon": {
-      "128": "icon128.png"
-    },
-    "default_title": "Focus!",
-    "default_popup": "popup.html"
-  }
+      "16": "/images/icon-16x16.png",
+      "32": "/images/icon-32x32.png",
+      "48": "/images/icon-48x48.png",
+      "128": "/images/icon-128x128.png"
+    }
+  },
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "host_permissions": ["https://www.google.com/*"]
 }
