@@ -1,6 +1,8 @@
 # Space News!
 Have you ever checked NASA's Astronomy Picture of the Day and thought, "Wow, that picture is so cool, I wish I could see it everyday without having to visit the website." Well, thanks to Space News, now you can! Download this Chrome browser extension and upload it to your browser to see the APOD, along with a brief explanation written by a professional astronomer, with a single click!
 
+<img width="788" alt="Screenshot 2023-11-19 at 4 10 26 PM" src="https://github.com/gaylem/space-news/assets/76500899/032e8262-77c6-46a9-93fd-76333c92dc8e">
+
 ## Instructions
 
 1. Download the project files above as a zip file and unzip on your computer.
@@ -30,7 +32,6 @@ Have you ever checked NASA's Astronomy Picture of the Day and thought, "Wow, tha
    <img width="559" alt="Screenshot 2023-11-19 at 4 10 10 PM" src="https://github.com/gaylem/space-news/assets/76500899/9b6b7a45-92e2-4673-8585-b6e87f1301ab">
 	 
 8. Now click the planet icon and read about all about NASA's APOD!
-    
-	<img width="788" alt="Screenshot 2023-11-19 at 4 10 26 PM" src="https://github.com/gaylem/space-news/assets/76500899/032e8262-77c6-46a9-93fd-76333c92dc8e">
+   <img width="788" alt="Screenshot 2023-11-19 at 4 10 26 PM" src="https://github.com/gaylem/space-news/assets/76500899/032e8262-77c6-46a9-93fd-76333c92dc8e">
 
 
