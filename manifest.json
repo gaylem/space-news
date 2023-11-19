@@ -21,3 +21,4 @@
   "permissions": ["storage", "activeTab", "scripting", "tabs"],
   "host_permissions": ["https://www.google.com/*"]
 }
+
